@@ -1,5 +1,5 @@
 import React from "react";
-import assets from "../assets";
+import { expo } from "../assets";
 import styles from "../styles/Global";
 import Button from "./Button";
 
@@ -44,7 +44,7 @@ const SectionWrapper = ({
           </p>
           {showBtn && (
             <Button
-              assetUrl={assets.expo}
+              assetUrl={expo}
               link="https://expo.dev/@alakowedeveloper/rn-nft?serviceType=classic&distribution=expo-go"
             />
           )}

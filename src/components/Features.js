@@ -1,5 +1,5 @@
 import React from "react";
-import assets from "../assets";
+import { javascript, react } from "../assets";
 import styles from "../styles/Global";
 
 const FeatureCard = ({ iconUrl, iconText }) => (
@@ -24,8 +24,8 @@ const Features = () => {
         </div>
 
         <div className={styles.flexWrap}>
-          <FeatureCard iconUrl={assets.react} iconText="React Native" />
-          <FeatureCard iconUrl={assets.javascript} iconText="JavaScript" />
+          <FeatureCard iconUrl={react} iconText="React Native" />
+          <FeatureCard iconUrl={javascript} iconText="JavaScript" />
         </div>
       </div>
     </div>
